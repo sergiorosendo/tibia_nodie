@@ -48,3 +48,7 @@ As BattleEye does not allow bots to be used, every feature in this project uses 
 	- This was developed for personal use in 2019. BattleEye was not able to detect it them.
 
 - Define this program's official name xD
+
+- Include installation instructions
+
+- Create Manual
