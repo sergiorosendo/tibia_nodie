@@ -101,7 +101,7 @@ If other players notice that you are botting, they might report you. This may no
 ###### Remember to deactivate
 When you wish to leave protection zone or go hunting, always remember to deactivate the script with the proper hotkey so that the rune maker does not interfere with your gameplay.
 
-####### Training for more than 24 hours
+###### Training for more than 24 hours
 *NoDie* can automatically log in your main character right after server save and get back to magic level training. It can even log all your makers and put them on offline training before logging into your main.
 
 If you want this, set up your account name and password in config.ini. *NoDie* will not send your credentials anywhere but **use it at your own risk**.
