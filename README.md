@@ -76,20 +76,20 @@ Make sure to refill your character with the necessary resources to keep crafting
 - ~300 brown mushrooms
 - ~1k blank runes
 
-####### Try to make a profit
+###### Try to make a profit
 
 If you sell your runes for the npc's price and buy Rings of Healing paying up to 1.5k each, you should be get some daily profit.
 
 Always renew your buying offers for RoH in market and try to keep their price as low as possible. Note that as this and other similar bots become popuplar, RoH stocks will diminish and its price will rise.
 
-####### Avoid unnecessary attention
+###### Avoid unnecessary attention
 Rent a house with at least one SQM that is not visible from anywhere outside the house. 
 
 As you might want to stay afk and train ml for hours on end, you don't want other players to notice that your character is standing still and taking repetitive actions.
 
 If they that you are botting, other players might report you. This may not always lead to a ban but it is better to avoid it.
 
-####### Remember to deactivate
+###### Remember to deactivate
 When you wish to leave protection zone or go hunting, always remember to deactivate the script with the proper hotkey so that the rune maker does not interfere with your gameplay.
 
 ####### Training for more than 24 hours
