@@ -58,7 +58,7 @@ With these actions, in a protection zone, your character will safely train magic
 ###### Auto login
 There's a auto login feature in case your internet connection drops while you are away. 
 
-The bot will attempt to keep your character selection screen open and log back in once internet connection is reestablished.
+The bot will attempt to keep your character selection screen active and log back in once internet connection is reestablished.
 
 ###### Works while minimized
 
