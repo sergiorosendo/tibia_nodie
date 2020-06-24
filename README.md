@@ -12,7 +12,7 @@ Feel free to edit and share it yourself, but give credit where credit is due.
 ## Main Features
 
 ### Auto Healer
-*NoDie* will track your health and mana bar to take the proper action to keep your character safe. It will always take the least expensive action for your current situation, so it allows you to focus on your hunting while you wasting less resources.
+*NoDie* will track your health and mana bars to take the proper action in order to keep your character safe. It will always take the least expensive action for your current situation, so it allows you to focus on your hunting while wasting less resources.
 
 Use *healer_config.ini* to set up your preferences.
 
