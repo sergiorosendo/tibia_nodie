@@ -1,33 +1,34 @@
-# tibia\_ahk_tools
-Some macros, shortcuts and auto-healers for the PC game Tibia. Created with AutoHotkey, an automation scripting language for Windows.
+# Tibia NoDie
+NoDie features macros, shortcuts and auto-healers for the PC game Tibia. Created with AutoHotkey, an automation scripting language for Windows.
 
-These ahk scripts were developed for my personal use. I've used and improved them for a year and never had issues with bans or BattleEye.
+These ahk scripts were developed for my personal use. I've used and improved them for over a year and never had issues with bans or BattleEye.
 
 I am not playing Tibia anymore but, as I did put a lot of effort into understanding AHK and developing this, I'm sharing it for public use and maybe to colaborate with other AHK developers to improve it.
 
 ## Main Features
 
 ### Auto Healer
-The bot will track your health and mana bar to take the proper action to keep your character safe. It will always take the least expensive action for your current situation, so it allows you to focus on your hunting while you waste less
+*NoDie* will track your health and mana bar to take the proper action to keep your character safe. It will always take the least expensive action for your current situation, so it allows you to focus on your hunting while you wasting less resources.
 
-Use healer_config.ini to set up your preferences.
+Use *healer_config.ini* to set up your preferences.
 
 ##### Auto HP
-AutoHP tracks your health bar and executes the least expensive healing spell available.
+*AutoHP* tracks your health bar and executes the least expensive healing spell available.
 
 If healing spells are on cooldown and your health is still low it will use health potions (for knights and paladins) to heal hp.
 
 ##### Auto MP
-AutoMP tracks yout mana bar and consumes a mana potions whenever it drops below your defined threshold.
+*AutoMP* tracks yout mana bar and consumes a mana potions whenever it drops below your defined threshold.
 
 You can also define a maximum threshold, so that if your character surpasses it, it will create a rune. This is done because when hunting, with mana leech while consuming little mana, your character may have superfluous mana which would be better used crafting runes.
 
-##### Auto Heal Paralyze + Auto Haste
+##### Auto Heal Paralyze
 This feature checks your status box for the paralyze icon and if present, it will cast haste or a healing spell to heal the condition.
 
 It will first check if haste is available, if it is not it will use a healing spell.
 
-This feature also always make sure that your character is hasted, so whenever it can't find the haste icon it will cast a haste spell. 
+##### Auto Haste
+Makes sure that your character is always hasted. Whenever it can't find the haste icon in your status bar, it will cast a haste spell. 
 
 ### Auto Loot
 You can define a hotkey and character coordinates so that you can use this key to loot all squares adjacent to your character.
@@ -53,16 +54,20 @@ Set up to 4 keys for each of these actions:
 - Use spell to waste excessive mana 
 	- if you are consuming more soul points than you regenerate, you will have superfluos mana that you still want to use to increase magic level
 
-With these actions, in a protection zone, your character will safely train magic level while crafting runes and making a profit. 
+With these actions, in a protection zone, your character will safely train magic level while crafting runes and making profit. 
 
 ###### Auto login
-There's a auto login feature in case your internet connection drops while you are away. 
+NoDie features a auto login feature in case your internet connection drops while you are away. 
 
-The bot will attempt to keep your character selection screen active and log back in once internet connection is reestablished.
+The bot will **attempt to keep your character selection screen active** and log back in once internet connection is reestablished. By keeping the selection screen active it is able to relogin without inserting your account name and password.
+
+This way you can go to work and be certain that your character will keep training all day long.
 
 ###### Works while minimized
 
 These actions will be performed even if your Tibia window is minimized, so you can freely use your computer while your character safely improves its magic level.
+
+Wanna watch a movie or play Dota while still training magic level? With NoDie you can do just that!
 
 Keys are sent directly to your Tibia Client, so the bot will actions will not interfere with anything that you are doing or typing.
 
@@ -80,7 +85,7 @@ Make sure to refill your character with the necessary resources to keep crafting
 
 If you sell your runes for the npc's price and buy Rings of Healing paying up to 1.5k each, you should be get some daily profit.
 
-Always renew your buying offers for RoH in market and try to keep their price as low as possible. Note that as this and other similar bots become popuplar, RoH stocks will diminish and its price will rise.
+Always renew your buying offers for RoH in market and try to keep their price as low as possible. Note that as *NoDie* and other similar bots become popuplar, RoH stocks will diminish and its price will rise.
 
 ###### Avoid unnecessary attention
 Rent a house with at least one SQM that is not visible from anywhere outside the house and train ML in that spot.
@@ -93,25 +98,21 @@ If other players notice that you are botting, they might report you. This may no
 When you wish to leave protection zone or go hunting, always remember to deactivate the script with the proper hotkey so that the rune maker does not interfere with your gameplay.
 
 ####### Training for more than 24 hours
-The bot can automatically log in your main character right after server save. It can even log all your makers and put them on offline training.
+*NoDie* can automatically log in your main character right after server save and get back to magic level training. It can even log all your makers and put them on offline training before logging into your main.
 
-If you want this, set up your account name and password in config.ini. This bot will not send your credentials anywhere but **use it at your own risk**.
+If you want this, set up your account name and password in config.ini. *NoDie* will not send your credentials anywhere but **use it at your own risk**.
 
-If you download these tools from another page, some other developer could easily have edited them so that they have access to your password.
+If you download *NoDie* or its scripts from an unofficial page, some other developer could easily have edited them so that they have access to your password.
 
 This feature is available but not advised unless you know what you are doing.
 
-
 ## Avoiding BattleEye Detection
 
-As BattleEye does not allow bots to be used, every feature in this project uses some sort of randomness to make it harder for external software to identify any repetitive patterns.
+As BattleEye does not allow bots to be used, every feature in *NoDie* uses some sort of randomness to make it harder for external software to identify any repetitive patterns.
 
 - for some actions, up to 4 keys can be registered. In every call, the corresponding method will randomly select one of these to use.
 - the auto-healer's healing period continually changes using *exhaustion_time + small\_random\_number*
 - every action takes into consideration a very small random delay to be performed, once its conditions are met
-
-
-
 
 ## ToDo
 
@@ -143,14 +144,11 @@ As BattleEye does not allow bots to be used, every feature in this project uses 
 - shortcut to execute aggressive spells rotation
 
 ##### Sorcerers 
-- x
-
+- ~
 
 ##### Misc
 - Check if BattleEye still allows ahk executables to run
 	- This was developed for personal use in 2019. BattleEye was not able to detect it them.
-
-- Define this program's official name xD
 
 - Include installation instructions
 
