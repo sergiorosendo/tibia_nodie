@@ -116,7 +116,7 @@ As BattleEye does not allow bots to be used, every feature in *NoDie* uses some 
 
 - for some actions, up to 4 keys can be registered. In every call, the corresponding method will randomly select one of these to use.
 - the auto-healer's healing period continually changes using *exhaustion_time + small\_random\_number*
-- every action takes into consideration a very small random delay to be performed, once its conditions are met
+- every action has a *very small random delay* before being performed. This delay is unnoticeable for human eyes. 
 
 ## Known Bugs
 - in some very rare occasions the bot may freeze your ability to send keys to the client for period of ~30 secs. This may cause your character to die if you are hunting, so keep it in mind.
