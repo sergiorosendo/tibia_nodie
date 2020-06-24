@@ -5,7 +5,9 @@ These ahk scripts were developed for my personal use. I've used and improved the
 
 I am not playing Tibia anymore but, as I did put a lot of effort into understanding AHK and developing this, I'm sharing it for public use and maybe to colaborate with other AHK developers to improve it.
 
-Feel free to edit it and share it yourself, but give credit where credit is due.
+##### License
+
+Feel free to edit and share it yourself, but give credit where credit is due.
 
 ## Main Features
 
