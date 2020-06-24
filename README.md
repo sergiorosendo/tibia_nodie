@@ -94,7 +94,7 @@ Always renew your buying offers for RoH in market and try to keep their price as
 ###### Avoid unnecessary attention
 Rent a house with at least one SQM that is not visible from anywhere outside the house and train ML in that spot.
 
-As you might want to stay afk and train ml for hours on end, you don't want other players to notice that your character is standing still and taking repetitive actions.
+As you might want to stay afk and train ml for hours on end, you don't want other players to notice that your character is standing still and performing repetitive actions.
 
 If other players notice that you are botting, they might report you. This may not always lead to a ban but it is better to avoid it.
 
