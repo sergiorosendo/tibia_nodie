@@ -69,7 +69,7 @@ These actions will be performed even if your Tibia window is minimized, so you c
 
 Wanna watch a movie or play Dota while still training magic level? With NoDie you can do just that!
 
-Keys are sent directly to your Tibia Client, so the bot will actions will not interfere with anything that you are doing or typing.
+Keys are sent directly to your Tibia Client, so *NoDie*'s actions will not interfere with anything that you are doing or typing.
 
 #### Tips and Tricks
 
@@ -114,6 +114,11 @@ As BattleEye does not allow bots to be used, every feature in *NoDie* uses some 
 - the auto-healer's healing period continually changes using *exhaustion_time + small\_random\_number*
 - every action takes into consideration a very small random delay to be performed, once its conditions are met
 
+## Known Bugs
+- in some very rare occasions the bot may freeze your ability to send keys to the client for period of ~30 secs. This may cause your character to die if you are hunting, so keep it in mind.
+	- it is rare and it was experienced only a few times. In most cases I was able to take control back before dying
+	- the cause for this bug is still unknown and it should be fixed eventually
+	- as always, use *NoDie* at your own risk
 ## ToDo
 
 ##### Source Code 
