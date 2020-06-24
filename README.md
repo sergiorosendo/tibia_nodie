@@ -17,7 +17,7 @@ AutoHP tracks your health bar and executes the least expensive healing spell ava
 
 If healing spells are on cooldown and your health is still low it will use health potions (for knights and paladins) to heal hp.
 
-##### Auto Mana
+##### Auto MP
 AutoMP tracks yout mana bar and consumes a mana potions whenever it drops below your defined threshold.
 
 You can also define a maximum threshold, so that if your character surpasses it, it will create a rune. This is done because when hunting, with mana leech while consuming little mana, your character may have superfluous mana which would be better used crafting runes.
