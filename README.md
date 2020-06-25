@@ -119,53 +119,6 @@ As BattleEye does not allow bots to be used, every feature in *NoDie* uses some 
 - every action has a *very small random delay* before being performed. This delay is unnoticeable for human eyes. 
 
 ## Known Bugs
-- in some very rare occasions the bot may "freeze" your keyboard for up to ~30 secs. 
-	- If you are hunting when this happens, this may cause your character to die, so keep it in mind.
-	- it is a rare event, but it can happen. 
-	- it was only experienced a few times and, in most cases, I was able to take control back before dying
-	- the cause for this bug is still unknown, once it is figured out, it should be fixed eventually
-	- as always, use *NoDie* at your own risk
-- sometimes the afk ml trainer may fail to send keys for a certain action for a period of an hour or so and then get back to normal
-	- this is somewhat annoying but does not cause major issues
-	- even if it does happens, this goes away without the need for any actions and your character won't stop making runes
-	- the cause for this bug is still unknown, once it is figured out, it should be fixed eventually
+Check the *Issues* Tab for known bugs.
 
-## ToDo
 
-##### Source Code 
-- Logically separate files in different folders
-	- requires editing paths used in some *#include* statements
-		- requires defining a new method to get parent folder, apparently ahk does not have a shortcut for this
-- Rewrite the code in Python
-	- requires checking if BattleEye allows Python libraries to perform the same tasks as AHK scripts
-	
-##### Interface
-- Create a user friendly GUI interface
-	- Maybe using Python + AHK
-
-##### Specific methods
-- Add a method to identify the current screen's size and the game window's size and coordinates 
-	- currently this uses a specific screen coordinates, so it won't work in every machine unless the values are changed manually
-- For any method that uses windows coordinates, make it take into consideration the current window size and use proportions to identify the correct coordinates for any window
-	- currently these methods use specific coordinates, so may not work in every machine
-
-##### Druids
-- Auto sio
-	- read knight's health from the battle list
-
-##### Paladins:
-- auto create diamond arrows
-
-##### Knights:
-- shortcut to execute aggressive spells rotation
-
-##### Sorcerers 
-- ~
-
-##### Misc
-- Check if BattleEye still allows ahk executables to run
-	- This was developed for personal use in 2019. BattleEye was not able to detect it them.
-
-- Include installation instructions
-
-- Create Manual
