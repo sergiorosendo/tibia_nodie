@@ -71,7 +71,7 @@ This way you can go to work and be certain that your character will keep trainin
 
 These actions will be performed even if your Tibia window is minimized, so you can freely use your computer while your character safely improves its magic level.
 
-Wanna watch a movie or play Dota while still training magic level? With NoDie you can do just that!
+Wanna watch a movie or play Dota while still training magic level? With *NoDie* you can do just that!
 
 Keys are sent directly to your Tibia Client, so *NoDie*'s actions will not interfere with anything that you are doing or typing.
 
