@@ -1,5 +1,5 @@
 # Tibia NoDie
-NoDie features macros, shortcuts and auto-healers for the PC game Tibia. Created with AutoHotkey, an automation scripting language for Windows.
+*NoDie* features macros, shortcuts and auto-healers for the PC game Tibia. Created with AutoHotkey, an automation scripting language for Windows.
 
 These ahk scripts were developed for my personal use. I've used and improved them for over a year and never had issues with bans or BattleEye.
 
@@ -106,7 +106,7 @@ When you wish to leave protection zone or go hunting, always remember to deactiv
 
 If you want this, set up your account name and password in config.ini. *NoDie* will not send your credentials anywhere but **use it at your own risk**.
 
-If you download *NoDie* or its scripts from an unofficial page, some other developer could easily have edited them so that they have access to your password.
+If you download *NoDie* or its scripts from an unofficial page, some other developer could easily have edited it so that they have access to your password. Always download *NoDie* from its main, official repository.
 
 This feature is available but not advised unless you know what you are doing.
 
@@ -119,10 +119,17 @@ As BattleEye does not allow bots to be used, every feature in *NoDie* uses some 
 - every action has a *very small random delay* before being performed. This delay is unnoticeable for human eyes. 
 
 ## Known Bugs
-- in some very rare occasions the bot may freeze your ability to send keys to the client for period of ~30 secs. This may cause your character to die if you are hunting, so keep it in mind.
-	- it is rare and it was experienced only a few times. In most cases I was able to take control back before dying
-	- the cause for this bug is still unknown and it should be fixed eventually
+- in some very rare occasions the bot may "freeze" your keyboard for up to ~30 secs. 
+	- If you are hunting when this happens, this may cause your character to die, so keep it in mind.
+	- it is a rare event, but it can happen. 
+	- it was only experienced a few times and, in most cases, I was able to take control back before dying
+	- the cause for this bug is still unknown, once it is figured out, it should be fixed eventually
 	- as always, use *NoDie* at your own risk
+- sometimes the afk ml trainer may fail to send keys for a certain action for a period of an hour or so and then get back to normal
+	- this is somewhat annoying but does not cause major issues
+	- even if it does happens, this goes away without the need for any actions and your character won't stop making runes
+	- the cause for this bug is still unknown, once it is figured out, it should be fixed eventually
+
 ## ToDo
 
 ##### Source Code 
