@@ -87,9 +87,9 @@ Make sure to refill your character with the necessary resources to keep crafting
 
 ###### Try to make a profit
 
-If you sell your runes for the npc's price and buy Rings of Healing paying up to 1.5k each, you should be get some daily profit.
+If you sell your runes for the same price as npcs do and buy Rings of Healing for up to 1.5k each, you should be able get some daily profit.
 
-Always renew your buying offers for RoH in market and try to keep their price as low as possible. Note that as *NoDie* and other similar bots become popuplar, RoH stocks will diminish and its price will rise.
+Always renew your buying offers for RoH in market and try to keep their price as low as possible. Do note that, as *NoDie* and other similar bots become common place, RoH demand may increase substantially and, if so, its price will rise.
 
 ###### Avoid unnecessary attention
 Rent a house with at least one SQM that is not visible from anywhere outside the house and train ML in that spot.
