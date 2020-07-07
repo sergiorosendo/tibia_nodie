@@ -19,16 +19,17 @@ OnExit("ExitFunc")
 
 ExitFunc()
 {
+    Run,%ComSpec% /c Taskkill -f -im autohotkey.exe,%A_ScriptDir%,Hide
     ;Process, Close, auto_log_in.ahk
-    Process, Close, auto_rune.ahk
+    ;Process, Close, auto_rune.ahk
     ;Process, Close, repair_soft.ahk
     ;Process, Close, drag_rings.ahk
-    Process, Close, gfb_macro.ahk
-    Process, Close, auto_loot.ahk
-    Process, Close, npc_shortcuts.ahk
-    Process, Close, auto_hp.ahk
-    Process, Close, auto_potion.ahk
-    Process, Close, auto_haste.ahk
+    ;Process, Close, gfb_macro.ahk
+    ;Process, Close, auto_loot.ahk
+    ;Process, Close, npc_shortcuts.ahk
+    ;Process, Close, auto_hp.ahk
+    ;Process, Close, auto_potion.ahk
+    ;Process, Close, auto_haste.ahk
 }
 
 #include min_win_tray.ahk
