@@ -81,7 +81,7 @@ Global status_box_y_end := 16 ;first layer only
 
 has_status_condition(byref status_condition) {
 
-    folder := "images/"
+    folder := "img/"
     extension := ".png"
     status_condition_image := folder . status_condition . extension
 
