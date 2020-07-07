@@ -4,31 +4,31 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-;Run, auto_log_in.exe, Min
-Run, auto_rune.exe, Min
-;Run, repair_soft.exe, Min
-;Run, drag_rings.exe, Min
-Run, gfb_macro.exe, Min
-Run, auto_loot.exe, Min
-Run, npc_shortcuts.exe, Min
-Run, auto_hp.exe, Min
-Run, auto_potion.exe, Min
-Run, auto_haste.exe, Min
+;Run, auto_log_in.ahk, Min
+Run, auto_rune.ahk, Min
+;Run, repair_soft.ahk, Min
+;Run, drag_rings.ahk, Min
+Run, gfb_macro.ahk, Min
+Run, auto_loot.ahk, Min
+Run, npc_shortcuts.ahk, Min
+Run, auto_hp.ahk, Min
+Run, auto_potion.ahk, Min
+Run, auto_haste.ahk, Min
 
 OnExit("ExitFunc")
 
 ExitFunc()
 {
-    ;Process, Close, auto_log_in.exe
-    Process, Close, auto_rune.exe
-    ;Process, Close, repair_soft.exe
-    ;Process, Close, drag_rings.exe
-    Process, Close, gfb_macro.exe
-    Process, Close, auto_loot.exe
-    Process, Close, npc_shortcuts.exe
-    Process, Close, auto_hp.exe
-    Process, Close, auto_potion.exe
-    Process, Close, auto_haste.exe
+    ;Process, Close, auto_log_in.ahk
+    Process, Close, auto_rune.ahk
+    ;Process, Close, repair_soft.ahk
+    ;Process, Close, drag_rings.ahk
+    Process, Close, gfb_macro.ahk
+    Process, Close, auto_loot.ahk
+    Process, Close, npc_shortcuts.ahk
+    Process, Close, auto_hp.ahk
+    Process, Close, auto_potion.ahk
+    Process, Close, auto_haste.ahk
 }
 
 #include min_win_tray.ahk
