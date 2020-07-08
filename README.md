@@ -64,16 +64,6 @@ It will first check if haste is available, if it is not it will use a healing sp
 ##### Auto Haste (for OT server)
 Makes sure that your character is always hasted. Whenever it can't find the haste icon in your status bar, it will cast a haste spell. 
 
-#### Auto Healer Suspension
-Auto healing features are suspended until further notice.
-
-Since an update made in October, 2019, the Tibia client prevents any outside software from reading the game window's pixels.
-
-Reading pixels is the healer's foundation in order to identify character's health and mana and act accordingly.
-
-Until a practical solution is found, this feature can't be used or fixed.
-
-
 ### Auto Loot
 You can define a hotkey and character coordinates so that you can use this key to loot all squares adjacent to your character.
 
