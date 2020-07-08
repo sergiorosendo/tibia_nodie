@@ -9,12 +9,60 @@ I am not playing Tibia anymore but, as I did put a lot of effort into understand
 
 Feel free to edit and share it yourself, but give credit where credit is due.
 
+##Installation
+Install AutoHotkey, from [https://www.autohotkey.com/](https://www.autohotkey.com/).
+
+### NoDie Setup
+
+###### Edit config.ini files
+Edit *src/config.ini* and *src/healer_config.ini* according to your Tibia Client and Character.
+
+### Tibia Setup
+###### Edit Bars style
+In the game client use Large Bars Style on top, 1 vertical bar on the left and 2 on the right, like so:
+
+![bars_setup](src/img/bars_setup.png)
+
+
+## Launching
+Execute *noDie.ahk*.
+
 ## Main Features
 
-### Auto Healer (Suspended)
+### Auto Healer 
+
+##### Feature suspended for Global server
+Since an update made in October, 2019, the Tibia client prevents any outside software from reading the game window's pixels.
+
+Reading pixels is the healer's foundation in order to identify character's health and mana and act accordingly.
+
+Until a practical solution is found, this feature can't be used or fixed.
+
+The auto healer will work on OT Servers in which the game client allows the player to take screenshots with the keyboard PrintScreen key.
+
 *NoDie* will track your health and mana bars to take the proper action in order to keep your character safe. It will always take the least expensive action for your current situation, so it allows you to focus on your hunting while wasting less resources.
 
 Use *healer_config.ini* to set up your preferences.
+
+##### Auto HP (for OT server)
+*AutoHP* tracks your health bar and executes the least expensive healing spell available.
+
+If healing spells are on cooldown and your health is still low it will use health potions (for knights and paladins) to heal hp.
+
+The healer's description and files will remain in the repository for now, they can be used in Tibia version prior to 10/2019 (in OT Servers for example).
+
+##### Auto MP (for OT server)
+*AutoMP* tracks yout mana bar and consumes a mana potions whenever it drops below your defined threshold.
+
+You can also define a maximum threshold, so that if your character surpasses it, it will create a rune. This is done because when hunting, with mana leech while consuming little mana, your character may have superfluous mana which would be better used crafting runes.
+
+##### Auto Heal Paralyze (for OT server)
+This feature checks your status box for the paralyze icon and if present, it will cast haste or a healing spell to heal the condition.
+
+It will first check if haste is available, if it is not it will use a healing spell.
+
+##### Auto Haste (for OT server)
+Makes sure that your character is always hasted. Whenever it can't find the haste icon in your status bar, it will cast a haste spell. 
 
 #### Auto Healer Suspension
 Auto healing features are suspended until further notice.
@@ -25,25 +73,6 @@ Reading pixels is the healer's foundation in order to identify character's healt
 
 Until a practical solution is found, this feature can't be used or fixed.
 
-##### Auto HP (Suspended)
-*AutoHP* tracks your health bar and executes the least expensive healing spell available.
-
-If healing spells are on cooldown and your health is still low it will use health potions (for knights and paladins) to heal hp.
-
-The healer's description and files will remain in the repository for now, they can be used in Tibia version prior to 10/2019 (in OT Servers for example).
-
-##### Auto MP (Suspended)
-*AutoMP* tracks yout mana bar and consumes a mana potions whenever it drops below your defined threshold.
-
-You can also define a maximum threshold, so that if your character surpasses it, it will create a rune. This is done because when hunting, with mana leech while consuming little mana, your character may have superfluous mana which would be better used crafting runes.
-
-##### Auto Heal Paralyze (Suspended)
-This feature checks your status box for the paralyze icon and if present, it will cast haste or a healing spell to heal the condition.
-
-It will first check if haste is available, if it is not it will use a healing spell.
-
-##### Auto Haste (Suspended)
-Makes sure that your character is always hasted. Whenever it can't find the haste icon in your status bar, it will cast a haste spell. 
 
 ### Auto Loot
 You can define a hotkey and character coordinates so that you can use this key to loot all squares adjacent to your character.
