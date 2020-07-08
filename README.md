@@ -9,7 +9,7 @@ I am not playing Tibia anymore but, as I did put a lot of effort into understand
 
 Feel free to edit and share it yourself, but give credit where credit is due.
 
-##Installation
+## Installation
 Install AutoHotkey, from [https://www.autohotkey.com/](https://www.autohotkey.com/).
 
 ### NoDie Setup
