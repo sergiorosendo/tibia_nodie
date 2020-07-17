@@ -23,6 +23,8 @@ In the game client use Large Bars Style on top, 1 vertical bar on the left and 2
 
 ![bars_setup](src/img/bars_setup.png)
 
+###### Screen Resolution
+Use 1920x1080 screen resolution.
 
 ## Launching
 Execute *noDie.ahk*.
